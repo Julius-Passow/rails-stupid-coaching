@@ -1,0 +1,47 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+  font-family: Arial;
+}
+
+.banner {
+  background: #FFFFFF;
+  border-left: 4px solid black;
+  margin-left: 5px;
+  padding-left: 8px;
+  h1 {
+    font-size: 50px;
+    font-weight: lighter;
+  }
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  font-style: italic;
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.input {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.submit {
+  color: white;
+  background-color: green;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
